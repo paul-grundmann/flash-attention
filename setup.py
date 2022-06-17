@@ -166,6 +166,7 @@ setup(
         "License :: Apache 2.0",
         "Operating System :: Linux",
     ],
+    package_dir={"": "."},
     ext_modules=ext_modules,
     cmdclass={"build_ext": BuildExtension} if ext_modules else {},
     python_requires=">=3.7"
